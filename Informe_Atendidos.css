@@ -1,0 +1,491 @@
+body
+{
+   background-color: #FFFFFF;
+   background-image: url(images/soger_menu_publico.jpg);
+   background-attachment: fixed;
+   background-position: left top;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_Form1
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   opacity: 0.40;
+}
+#Label2
+{
+   border: 0px #000000 solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#101010;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 32px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+}
+#Table1
+{
+   border: 1px #000000 solid;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-collapse: collapse;
+   border-spacing: 0px;
+}
+#Table1 td
+{
+   padding: 0px 0px 0px 0px;
+}
+#Table1 td div
+{
+   white-space: nowrap;
+}
+#Table1 .cell0
+{
+   background-color: #87CEFA;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: top;
+   width: 206px;
+   height: 62px;
+}
+#Table1 .cell1
+{
+   background-color: #87CEFA;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: top;
+   width: 218px;
+   height: 62px;
+}
+#Table1 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 206px;
+   height: 62px;
+}
+#Table1 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 218px;
+   height: 62px;
+}
+#wb_ResponsiveMenu2
+{
+   display: block;
+   font-family: Arial;
+   font-weight: normal;
+   text-align: left;
+   width: 100%;
+}
+#ResponsiveMenu2
+{
+   background-color: #424242;
+   height: 69px;
+}
+#wb_ResponsiveMenu2 ul
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+#wb_ResponsiveMenu2 ul:after
+{
+   clear: both;
+   content: "";
+   display: block;
+}
+#wb_ResponsiveMenu2 ul li
+{
+   background-color: #424242;
+   display: list-item;
+   float: left;
+   list-style: none;
+   z-index: 9999;
+}
+#wb_ResponsiveMenu2 ul li i
+{
+   font-size: 24px;
+   width: 24px;
+}
+#wb_ResponsiveMenu2 ul li a 
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   padding: 15px 30px 15px 30px;
+   text-align: center;
+   text-decoration: none;
+}
+#wb_ResponsiveMenu2 > ul > li > a 
+{
+   height: 39px;
+}
+.ResponsiveMenu2 a 
+{
+   display: block;
+}
+#wb_ResponsiveMenu2 li a:hover, #wb_ResponsiveMenu2 li .active
+{ 
+   background-color: #CCCCCC;
+   color: #424242;
+}
+#wb_ResponsiveMenu2 ul ul
+{
+   display: none;
+   position: absolute;
+   top: 69px;
+}
+#wb_ResponsiveMenu2 ul li:hover > ul
+{
+   display: list-item;
+}
+#wb_ResponsiveMenu2 ul ul li 
+{
+   background-color: #7A7A7A;
+   color: #FFFFFF;
+   float: none;
+   position: relative;
+   width: 178px;
+}
+#wb_ResponsiveMenu2 ul ul li a:hover, #wb_ResponsiveMenu2 ul ul li .active
+{
+   background-color: #CCCCCC;
+   color: #424242;
+}
+#wb_ResponsiveMenu2 ul ul li i 
+{
+   margin-right: 8px;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu2 ul ul li a 
+{
+   color: #FFFFFF;
+   padding: 15px 20px 15px 20px;
+   text-align: left;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu2 ul ul ul li 
+{
+   left: 178px;
+   position: relative;
+   top: -69px;
+}
+#wb_ResponsiveMenu2 .arrow-down 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 2px;
+   vertical-align: middle;
+   border-top: 4px solid #FFFFFF;
+   border-right: 4px solid transparent;
+   border-left: 4px solid transparent;
+   border-bottom: 0 dotted;
+}
+#wb_ResponsiveMenu2 .arrow-left 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 4px;
+   vertical-align: middle;
+   border-left: 4px solid #FFFFFF;
+   border-top: 4px solid transparent;
+   border-bottom: 4px solid transparent;
+   border-right: 0 dotted;
+}
+#wb_ResponsiveMenu2 li a:hover .arrow-down
+{ 
+   border-top-color: #424242;
+}
+#wb_ResponsiveMenu2 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu2 ul ul li .active .arrow-left
+{ 
+   border-left-color: #424242;
+}
+#wb_ResponsiveMenu2 .toggle,[id^=ResponsiveMenu2-submenu]
+{
+   display: none;
+}
+@media all and (max-width:768px) 
+{
+#wb_ResponsiveMenu2 
+{
+   margin: 0;
+   text-align: left;
+}
+#wb_ResponsiveMenu2 ul li a, #wb_ResponsiveMenu2 .toggle
+{
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+   padding: 15px 20px 15px 20px;
+}
+#wb_ResponsiveMenu2 .toggle + a
+{
+   display: none !important;
+}
+.ResponsiveMenu2 
+{
+   display: none;
+   z-index: 9999;
+}
+#ResponsiveMenu2 
+{
+   background-color: transparent;
+}
+#wb_ResponsiveMenu2 > ul > li > a 
+{
+   height: auto;
+}
+#wb_ResponsiveMenu2 .toggle 
+{
+   display: block;
+   background-color: #424242;
+   color: #FFFFFF;
+   padding: 0px 20px 0px 20px;
+   line-height: 54px;
+   text-decoration: none;
+   border: none;
+}
+#wb_ResponsiveMenu2 .toggle:hover 
+{
+   background-color: #CCCCCC;
+   color: #424242;
+}
+[id^=ResponsiveMenu2-submenu]:checked + ul 
+{
+   display: block !important;
+}
+#ResponsiveMenu2-title
+{
+   height: 69px;
+   line-height: 69px !important;
+   text-align: center;
+}
+#wb_ResponsiveMenu2 ul li 
+{
+   display: block;
+   width: 100%;
+}
+#wb_ResponsiveMenu2 ul ul .toggle,
+#wb_ResponsiveMenu2 ul ul a 
+{
+   padding: 0 40px;
+}
+#wb_ResponsiveMenu2 a:hover,
+#wb_ResponsiveMenu2 ul ul ul a 
+{
+   background-color: #7A7A7A;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu2 ul li ul li .toggle,
+#wb_ResponsiveMenu2 ul ul a 
+{
+   background-color: #7A7A7A;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu2 ul ul ul a 
+{
+   padding: 15px 20px 15px 60px;
+}
+#wb_ResponsiveMenu2 ul li a 
+{
+   text-align: left;
+}
+#wb_ResponsiveMenu2 ul li a br 
+{
+   display: none;
+}
+#wb_ResponsiveMenu2 ul li i 
+{
+   margin-right: 8px;
+}
+#wb_ResponsiveMenu2 ul ul 
+{
+   float: none;
+   position: static;
+}
+#wb_ResponsiveMenu2 ul ul li:hover > ul,
+#wb_ResponsiveMenu2 ul li:hover > ul 
+{
+   display: none;
+}
+#wb_ResponsiveMenu2 ul ul li 
+{
+   display: block;
+   width: 100%;
+}
+#wb_ResponsiveMenu2 ul ul ul li 
+{
+   position: static;
+}
+#ResponsiveMenu2-icon 
+{
+   display: block;
+   position: absolute;
+   left: 30px;
+   top: 22px;
+}
+#ResponsiveMenu2-icon span 
+{
+   display: block;
+   margin-top: 4px;
+   height: 2px;
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+   width: 24px;
+}
+#wb_ResponsiveMenu2 ul li ul li .toggle:hover
+{
+   background-color: #CCCCCC;
+   color: #424242;
+}
+#wb_ResponsiveMenu2 .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu2 .toggle:hover .arrow-down, #wb_ResponsiveMenu2 li .active .arrow-down
+{ 
+   border-top-color: #424242;
+}
+#wb_ResponsiveMenu2 ul li ul li .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu2 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu2 ul li ul li .active .arrow-down
+{ 
+   border-top-color: #424242;
+}
+}
+#Label2
+{
+   position: absolute;
+   left: 212px;
+   top: 253px;
+   width: 293px;
+   height: 36px;
+   line-height: 36px;
+   z-index: 3;
+}
+#Banner1
+{
+   border-width: 0;
+   position: absolute;
+   left: 1px;
+   top: 69px;
+   width: 1902px;
+   height: 94px;
+   z-index: 2;
+}
+#Table1
+{
+   position: absolute;
+   left: 373px;
+   top: 318px;
+   width: 1048px;
+   height: 505px;
+   z-index: 4;
+}
+#wb_Form1
+{
+   position: absolute;
+   left: 174px;
+   top: 218px;
+   width: 1356px;
+   height: 665px;
+   z-index: 0;
+}
+#wb_ResponsiveMenu2
+{
+   position: absolute;
+   left: 1px;
+   top: 0px;
+   width: 1902px;
+   height: 69px;
+   z-index: 5;
+}
+@media only screen and (max-width: 993px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: url(images/soger_menu_publico.jpg);
+   background-attachment: fixed;
+   background-position: left top;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#BuildWith1
+{
+   left: 441px;
+   top: 967px;
+   width: 88px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#Banner1
+{
+   left: 50px;
+   top: 87px;
+   visibility: visible;
+   display: inline;
+}
+#Label2
+{
+   left: 93px;
+   top: 221px;
+   width: 293px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
+   color: #101010;
+   font-size: 32px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+}
+#Table1
+{
+   left: 204px;
+   top: 316px;
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+}
